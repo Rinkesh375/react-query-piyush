@@ -12,7 +12,7 @@ const PostList = () => {
 
     const {
         mutate,
-        isPending,
+       
         isError: isPostError,
     } = useMutation({mutationFn:addPost,
     
